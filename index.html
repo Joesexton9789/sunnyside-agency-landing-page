@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Frontend Mentor | Sunnyside agency landing page</title>
+
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <img class="header-logo" src="./images/logo.svg" alt="" />
+        </div>
+        <div class="menu-icon">
+          <i class="fa-solid fa-bars" aria-label="show navagation menu"></i>
+        </div>
+
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <section class="title-section" id="about">
+        <h1>we are creatives</h1>
+        <img src="./images/icon-arrow-down.svg" alt="" />
+      </section>
+    </header>
+
+    <main>
+      <section class="text-images">
+        <article class="text-box">
+          <h3 class="text-box-title">Transform your brand</h3>
+          <p class="text-box-text">
+            We are a full-service creative agency specializing in helping brands
+            grow fast. Engage your clients through compelling visuals that do
+            most of the marketing for you.
+          </p>
+          <p><a class="text-box-link" href="#">Learn more</a></p>
+        </article>
+        <picture class="text-box-image">
+          <img
+            class="desktop"
+            src="./images/desktop/image-transform.jpg"
+            alt=""
+          />
+          <img
+            class="mobile"
+            src="./images/mobile/image-transform.jpg"
+            alt=""
+          />
+        </picture>
+        <picture class="text-box-image">
+          <img
+            class="desktop"
+            src="./images/desktop/image-stand-out.jpg"
+            alt=""
+          />
+          <img
+            class="mobile"
+            src="./images/mobile/image-stand-out.jpg"
+            alt=""
+          />
+        </picture>
+        <article class="text-box">
+          <h3 class="text-box-title">Stand out to the right audience</h3>
+          <p class="text-box-text">
+            Using a collaborative formula of designers, researchers,
+            photographers, videographers, and copywriters, we’ll build and
+            extend your brand in digital places.
+          </p>
+          <p><a class="text-box-link red" href="#">Learn more</a></p>
+        </article>
+        <picture class="text-box-image">
+          <img
+            class="desktop"
+            src="./images/desktop/image-graphic-design.jpg"
+            alt=""
+          />
+          <img
+            class="mobile"
+            src="./images/mobile/image-graphic-design.jpg"
+            alt=""
+          />
+          <div class="text-box-image-text green">
+            <h3 class="text-box-title">Graphic design</h3>
+            <p class="text-box-text">
+              Great design makes you memorable. We deliver artwork that
+              underscores your brand message and captures potential clients’
+              attention.
+            </p>
+          </div>
+        </picture>
+        <picture class="text-box-image">
+          <img
+            class="desktop"
+            src="./images/desktop/image-photography.jpg"
+            alt=""
+          />
+          <img
+            class="mobile"
+            src="./images/mobile/image-photography.jpg"
+            alt=""
+          />
+          <div class="text-box-image-text blue">
+            <h3 class="text-box-title">Photography</h3>
+            <p class="text-box-text">
+              Increase your credibility by getting the most stunning,
+              high-quality photos that improve your business image.
+            </p>
+          </div>
+        </picture>
+      </section>
+
+      <section class="testimonials-section">
+        <h3 class="testimonial-title">Client testimonials</h3>
+
+        <div class="testimonials">
+          <article class="testimonial">
+            <picture class="testimonial-picture">
+              <img src="./images/image-emily.jpg" alt="" class="client-img" />
+            </picture>
+            <p class="testimonial-text">
+              We put our trust in Sunnyside and they delivered, making sure our
+              needs were met and deadlines were always hit.
+            </p>
+            <h5 class="name">Emily R.</h5>
+            <small class="name-desc">Marketing Director</small>
+          </article>
+          <article class="testimonial">
+            <picture class="testimonial-picture">
+              <img src="./images/image-thomas.jpg" alt="" class="client-img" />
+            </picture>
+            <p class="testimonial-text">
+              Sunnyside’s enthusiasm coupled with their keen interest in our
+              brand’s success made it a satisfying and enjoyable experience.
+            </p>
+            <h5 class="name">Thomas S.</h5>
+            <small class="name-desc">Chief Operating Officer</small>
+          </article>
+          <article class="testimonial">
+            <picture class="testimonial-picture">
+              <img src="./images/image-jennie.jpg" alt="" class="client-img" />
+            </picture>
+            <p class="testimonial-text">
+              Incredible end result! Our sales increased over 400% when we
+              worked with Sunnyside. Highly recommended!
+            </p>
+            <h5 class="name">Jennie F.</h5>
+            <small class="name-desc">Business Owner</small>
+          </article>
+        </div>
+      </section>
+
+      <section class="images">
+        <picture class="gallery">
+          <img
+            class="gallery-image desktop"
+            src="./images/desktop/image-gallery-milkbottles.jpg"
+            alt=""
+          />
+
+          <img
+            class="gallery-image mobile"
+            src="./images/mobile/image-gallery-milkbottles.jpg"
+            alt=""
+          />
+        </picture>
+        <picture class="gallery">
+          <img
+            class="gallery-image desktop"
+            src="./images/desktop/image-gallery-orange.jpg"
+            alt=""
+          />
+          <img
+            class="gallery-image mobile"
+            src="./images/mobile/image-gallery-orange.jpg"
+            alt=""
+          />
+        </picture>
+        <picture class="gallery">
+          <img
+            class="gallery-image desktop"
+            src="./images/desktop/image-gallery-cone.jpg"
+            alt=""
+          />
+          <img
+            class="gallery-image mobile"
+            src="./images/mobile/image-gallery-cone.jpg"
+            alt=""
+          />
+        </picture>
+        <picture class="gallery">
+          <img
+            class="gallery-image desktop"
+            src="./images/desktop/image-gallery-sugarcubes.jpg"
+            alt=""
+          />
+          <img
+            class="gallery-image mobile"
+            src="./images/mobile/image-gallery-sugar-cubes.jpg"
+            alt=""
+          />
+        </picture>
+      </section>
+    </main>
+
+    <footer>
+      <h3 class="footer-title">sunnyside</h3>
+      <ul class="link-list">
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Projects</a></li>
+      </ul>
+
+      <ul class="media-list">
+        <li>
+          <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+        </li>
+      </ul>
+    </footer>
+
+    <script
+      src="https://kit.fontawesome.com/f439b384ed.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
