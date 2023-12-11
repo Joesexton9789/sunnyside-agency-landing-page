@@ -6,8 +6,12 @@ function showNav() {
 
   if (navLinks.classList.contains('show')) {
     navIcon.style.opacity = 0.5
+    navIcon.setAttribute('aria-expanded', true)
+    navIcon.setAttribute('aria-label', 'hide main menu')
   } else {
     navIcon.style.opacity = 1
+    navIcon.setAttribute('aria-expanded', false)
+    navIcon.setAttribute('aria-label', 'show main menu')
   }
 }
 

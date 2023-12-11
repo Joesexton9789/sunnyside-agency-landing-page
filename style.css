@@ -57,6 +57,8 @@ nav {
 
 .menu-icon {
   color: var(--white);
+  background-color: transparent;
+  border: none;
   font-size: 2rem;
   display: none;
   cursor: pointer;

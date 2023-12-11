@@ -35,11 +35,17 @@
         <div class="logo">
           <img class="header-logo" src="./images/logo.svg" alt="" />
         </div>
-        <div class="menu-icon">
-          <i class="fa-solid fa-bars" aria-label="show navagation menu"></i>
-        </div>
+        <button
+          class="menu-icon"
+          tabindex="0"
+          aria-label="show main menu"
+          aria-expanded="false"
+          aria-controls="links"
+        >
+          <i class="fa-solid fa-bars"></i>
+        </button>
 
-        <div class="nav-links-container">
+        <div class="nav-links-container" id="links">
           <ul class="nav-links">
             <li><a href="#about">About</a></li>
             <li><a href="#services">Services</a></li>
