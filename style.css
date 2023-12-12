@@ -26,10 +26,12 @@ body {
 
 header {
   background-image: url('./images/desktop/image-header.jpg');
-  background-position: center center;
+  background-position: bottom center;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 80vh;
+  /* min-height: 80vh; */
+  padding: 2rem 3rem;
+  padding-bottom: 28rem;
 }
 
 main {
@@ -84,7 +86,8 @@ li {
 }
 
 .nav-links a:hover {
-  background-color: var(--dark-blue);
+  background-color: var(--white);
+  color: var(--very-dark-desaturated-blue);
 }
 
 .title-section {
@@ -98,6 +101,7 @@ li {
 
 .title-section h1 {
   margin-bottom: 8rem;
+  font-size: 4rem;
 }
 
 .text-images {
@@ -401,5 +405,16 @@ footer ul {
   .text-box-image img {
     width: 100%;
     height: auto;
+  }
+
+  .title-section h1 {
+    margin-bottom: 8rem;
+    font-size: 3rem;
+  }
+
+  header {
+    background-image: url('./images/mobile/image-header.jpg');
+    padding: 1rem 1.5rem;
+    padding-bottom: 12rem;
   }
 }
